@@ -11,8 +11,7 @@ SECRET_KEY = 'p&l%385148kslhtyn^##a1)ilz@4zqj=rq&agdol^##zgl9(vs'
 
 DEBUG = True
 
-#ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', default=None).split(',')
-
+# ALLOWED_HOSTS = os.environ.get('ALLOWED_HOSTS', default=None).split(',')
 ALLOWED_HOSTS = ['*']
 
 
@@ -65,12 +64,12 @@ TEMPLATES = [
 
 DATABASES = {
     'default': {
-        'ENGINE':'django.db.backends.postgresql',
-        'NAME':'postgres',
-        'USER':'postgres',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'postgres',
         'PASSWORD':'postgres',
-        'HOST':'db',
-        'PORT':'5432',
+        'HOST': 'db',
+        'PORT': '5432',
     }
 }
 
